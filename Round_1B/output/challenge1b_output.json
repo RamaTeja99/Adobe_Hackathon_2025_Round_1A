@@ -1,0 +1,127 @@
+{
+  "metadata": {
+    "input_documents": [
+      "South of France - Cities.pdf",
+      "South of France - Cuisine.pdf",
+      "South of France - History.pdf",
+      "South of France - Restaurants and Hotels.pdf",
+      "South of France - Things to Do.pdf",
+      "South of France - Tips and Tricks.pdf",
+      "South of France - Traditions and Culture.pdf"
+    ],
+    "persona": "Travel Planner",
+    "job_to_be_done": "Plan a trip of 4 days for a group of 10 college friends.",
+    "processing_timestamp": "2025-07-28T05:28:48.292014+00:00",
+    "total_sections_analyzed": 188,
+    "selected_sections": 7,
+    "processing_stats": {
+      "start_time": 1753680449.3266916,
+      "documents_processed": 7,
+      "sections_indexed": 188,
+      "sections_selected": 7,
+      "total_time": 78.96518111228943
+    }
+  },
+  "extracted_sections": [
+    {
+      "document": "South of France - Tips and Tricks.pdf",
+      "section_title": "Planning Your Trip",
+      "importance_rank": 1,
+      "page_number": 2,
+      "relevance_score": 0.578
+    },
+    {
+      "document": "South of France - Cities.pdf",
+      "section_title": "Travel Tips",
+      "importance_rank": 2,
+      "page_number": 2,
+      "relevance_score": 0.514
+    },
+    {
+      "document": "South of France - Things to Do.pdf",
+      "section_title": "Group Tours",
+      "importance_rank": 3,
+      "page_number": 13,
+      "relevance_score": 0.495
+    },
+    {
+      "document": "South of France - Tips and Tricks.pdf",
+      "section_title": "Travel Insurance",
+      "importance_rank": 4,
+      "page_number": 9,
+      "relevance_score": 0.447
+    },
+    {
+      "document": "South of France - Restaurants and Hotels.pdf",
+      "section_title": "Large Group Accommodations",
+      "importance_rank": 5,
+      "page_number": 10,
+      "relevance_score": 0.415
+    },
+    {
+      "document": "South of France - Restaurants and Hotels.pdf",
+      "section_title": "Restaurant Group Bookings",
+      "importance_rank": 6,
+      "page_number": 11,
+      "relevance_score": 0.408
+    },
+    {
+      "document": "South of France - Things to Do.pdf",
+      "section_title": "Group Activities",
+      "importance_rank": 7,
+      "page_number": 13,
+      "relevance_score": 0.394
+    }
+  ],
+  "subsection_analysis": [
+    {
+      "document": "South of France - Tips and Tricks.pdf",
+      "section_title": "Planning Your Trip",
+      "refined_text": "Planning Your Trip",
+      "page_number": 2,
+      "extraction_method": "TextRank"
+    },
+    {
+      "document": "South of France - Cities.pdf",
+      "section_title": "Travel Tips",
+      "refined_text": "Travel Tips",
+      "page_number": 2,
+      "extraction_method": "TextRank"
+    },
+    {
+      "document": "South of France - Things to Do.pdf",
+      "section_title": "Group Tours",
+      "refined_text": "Group Tours",
+      "page_number": 13,
+      "extraction_method": "TextRank"
+    },
+    {
+      "document": "South of France - Tips and Tricks.pdf",
+      "section_title": "Travel Insurance",
+      "refined_text": "Travel Insurance",
+      "page_number": 9,
+      "extraction_method": "TextRank"
+    },
+    {
+      "document": "South of France - Restaurants and Hotels.pdf",
+      "section_title": "Large Group Accommodations",
+      "refined_text": "Large Group Accommodations",
+      "page_number": 10,
+      "extraction_method": "TextRank"
+    },
+    {
+      "document": "South of France - Restaurants and Hotels.pdf",
+      "section_title": "Restaurant Group Bookings",
+      "refined_text": "Restaurant Group Bookings",
+      "page_number": 11,
+      "extraction_method": "TextRank"
+    },
+    {
+      "document": "South of France - Things to Do.pdf",
+      "section_title": "Group Activities",
+      "refined_text": "Group Activities",
+      "page_number": 13,
+      "extraction_method": "TextRank"
+    }
+  ]
+}
