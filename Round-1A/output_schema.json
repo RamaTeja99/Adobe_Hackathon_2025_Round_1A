@@ -1,0 +1,52 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "type": "object",
+  "title": "PDF Outline Schema",
+  "description": "Schema for PDF outline extraction results - supports H1 through H4 levels",
+  "required": [
+    "title",
+    "outline"
+  ],
+  "properties": {
+    "title": {
+      "type": "string",
+      "description": "Document title extracted from PDF (can be empty string)"
+    },
+    "outline": {
+      "type": "array",
+      "description": "List of headings extracted from the document (can be empty)",
+      "items": {
+        "type": "object",
+        "required": [
+          "level",
+          "text",
+          "page"
+        ],
+        "properties": {
+          "level": {
+            "type": "string",
+            "enum": [
+              "H1",
+              "H2",
+              "H3",
+              "H4"
+            ],
+            "description": "Heading level (H1, H2, H3, or H4)"
+          },
+          "text": {
+            "type": "string",
+            "description": "Clean heading text without numbering",
+            "minLength": 1
+          },
+          "page": {
+            "type": "integer",
+            "minimum": 0,
+            "description": "Page number (0-indexed)"
+          }
+        },
+        "additionalProperties": false
+      }
+    }
+  },
+  "additionalProperties": false
+}
